@@ -15,7 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/some', function () {
-    return 'sdfsd';
-});
+Route::get('/getting-redis/{id}', 'RedisController@showProfile');
 
