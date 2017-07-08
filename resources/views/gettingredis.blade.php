@@ -7,6 +7,6 @@
     <title>Redis</title>
 </head>
 <body>
-so much redis
+so much redis {{ $user }}
 </body>
 </html>
